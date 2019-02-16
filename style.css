@@ -1,0 +1,49 @@
+.simple
+{
+  background-color: skyblue;
+  text-align: center;
+  border: 4px solid;
+  margin: 18;
+  width:30%auto;
+  padding:10px;
+
+}
+body{
+  background-color: gray;
+
+}
+h1
+{
+  border: 3px solid;
+  background-color: pink;
+  color: blue;
+}
+figcaption{
+  color: orange;
+}
+footer{
+  color: red;
+}
+@media only screen and (max-width:450px) {
+  background-color: skyblue;
+  text-align: center;
+  border: 4px solid;
+  margin: 18;
+  width:30%auto;
+  padding:10px;
+
+}
+@media screen and (min-width:451px) and (max-width:720px) {
+  .simple
+  {
+    background-color: skyblue;
+    text-align: center;
+    border: 4px solid;
+    margin: 18;
+    width:30%auto;
+    justify-content: center;
+    padding:10px;
+  }
+
+
+}
